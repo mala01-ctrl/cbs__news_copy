@@ -1,0 +1,32 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: bold;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.subHeader {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #e8e8e8;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #e8e8e8;
+}
